@@ -11,6 +11,7 @@
   font-family: squarevetica-regular;
   src: url(fonts/squarevetica-regular.otf);
 }
+
 html,
 body {
   font-family: nyghtSerif;
@@ -23,7 +24,6 @@ body {
 canvas {
   display: block;
   z-index: -1000;
-  backround-color: rgb(0, 0, 0, 0);
 }
 
 #aboutTab {
