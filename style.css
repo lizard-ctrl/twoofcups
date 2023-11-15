@@ -9,7 +9,7 @@
 }
 @font-face {
   font-family: squarevetica-regular;
-  src: url(fonts/squarevetica-regular.otf);
+  src: url(fonts/Squarevetica-Regular.otf);
 }
 
 html,
@@ -27,7 +27,7 @@ canvas {
 }
 
 #aboutTab {
-  font-family: nyghtSerif;
+  
   display: none;
   color: rgb(62, 41, 31);
   position: absolute;
@@ -71,6 +71,7 @@ main {
 }
 .design h3 {
   writing-mode: vertical-rl;
+  font-family: squarevetica-regular;
   font-size: 2vw;
 }
 .design h3:first-child {
@@ -82,7 +83,7 @@ main {
   align-items: center;
 }
 .design .center h1 {
-  font-family: nyghtSerifItalic;
+  font-family: squarevetica-regular;
   font-size: 4vw;
   margin-block: 0px;
 }
@@ -91,10 +92,12 @@ main {
   width: 100%;
 }
 .design .center .space-container span {
+  font-family: squarevetica-regular;
   font-size: 2vw;
 }
 .design .center .space-container hr {
   border: none;
+  font-family: squarevetica-regular;
   border-bottom: 3px solid rgb(72, 54, 135);
   outline: none;
   display: inline;
@@ -223,7 +226,6 @@ a:hover {
 
   body{
     color: rgb(62, 41, 31);
-    font-family: squarevetica-regular;
   }
 
   a{
@@ -269,7 +271,7 @@ a:hover {
   }
 
   .design .center h1 {
-    font-family: squarevetica-regular;
+ 
     text-align: center;
     font-size: 15vw;
     margin-block: 0px;
@@ -304,7 +306,7 @@ a:hover {
   }
 
   #aboutTab {
-    font-family: squarevetica-regular;
+    
     display: none;
     position: absolute;
 
